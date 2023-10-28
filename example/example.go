@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/getlantern/golog"
-	"github.com/getlantern/sysproxy"
+	"github.com/kitecyber/sysproxy"
 )
 
 var log = golog.LoggerFor("example")

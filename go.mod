@@ -1,12 +1,12 @@
-module github.com/getlantern/sysproxy
+module github.com/kitecyber/sysproxy
 
-go 1.18
+go 1.20
 
 require (
-	github.com/getlantern/byteexec v0.0.0-20220903141943-7db46f110fbc
+	github.com/getlantern/byteexec v0.0.0-20220903142956-e6ed20032cfd
 	github.com/getlantern/elevate v0.0.0-20220903142053-479ab992b264
-	github.com/getlantern/golog v0.0.0-20211223150227-d4d95a44d873
-	github.com/stretchr/testify v1.8.0
+	github.com/getlantern/golog v0.0.0-20230503153817-8e72de7e0a65
+	github.com/stretchr/testify v1.8.4
 )
 
 require (

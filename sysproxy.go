@@ -93,6 +93,21 @@ func Off(addr string) error {
 	return verify("")
 }
 
+// Show get the system proxy.
+func Show() (string, error) {
+    if be == nil {
+        return "", fmt.Errorf("call EnsureHelperToolPresent() first")
+    }
+
+    cmd := be.Command("show")
+    out, err := cmd.Output()
+    if err != nil {
+        return "", err
+    }
+
+    return string(out), nil
+}
+
 type resultType struct {
 	out []byte
 	err error
