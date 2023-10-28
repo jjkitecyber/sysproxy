@@ -1,6 +1,6 @@
 # sysproxy
 
-[sysproxy](https://github.com/getlantern/sysproxy) is a simple Go library to
+[sysproxy](https://github.com/kitecyber/sysproxy) is a simple Go library to
 toggle the system proxy on and off for Windows and MacOS. It will
 extract a helper tool and use it to actually change the system proxy settings.
 
@@ -8,6 +8,7 @@ extract a helper tool and use it to actually change the system proxy settings.
 sysproxy.EnsureHelperToolPresent(fullPath, prompt, iconFullPath)
 sysproxy.On(proxyAddr string)
 sysproxy.Off()
+sysproxy.Show()
 ```
 
 See 'example/main.go' for detailed usage.
